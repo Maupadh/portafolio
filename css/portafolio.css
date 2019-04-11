@@ -1,0 +1,83 @@
+body {
+    background-color: #0d0d0d;
+}
+.navbar {
+    display: grid;
+    grid-template-columns: 200px auto 150px 150px 150px;
+    grid-template-rows: 50px;
+    margin: 40px;
+    
+    color: white;
+}
+.navitem {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8em;
+
+    text-align: center;
+    padding-top: 17px;
+}
+.ni1 {
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 2em;
+
+    grid-column: 1 / span 1;
+    padding-top: 5px;
+}
+.ni2 {
+    grid-column: 3 / span 1;
+}
+.ni2:hover {
+    border-bottom: 1px solid white;
+}
+.ni3 {
+    grid-column: 4 / span 1;
+}
+.ni3:hover {
+    border-bottom: 1px solid white;
+}
+.ni4 {
+    grid-column: 5 / span 1;
+}
+.ni4:hover {
+    border-bottom: 1px solid white;
+}
+
+a:link {
+    color: white;
+    text-decoration-line: none;
+}
+a:visited {
+    color: white;
+    text-decoration-line: none;
+}
+a:hover {
+    color: white;
+    text-decoration-line: none;
+}
+a:active {
+    color: white;
+    text-decoration-line: none;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 400px 15% 15% 15% 15% 15% 15%;
+    grid-template-rows: 400px 300px 500px 500px 250px;
+
+    margin: 40px;
+    border: 1px solid white;
+    color: white;
+}
+.cont-item {
+    border: 1px solid white;
+}
+.ci1 {
+    font-family: 'Six Caps', sans-serif;
+    font-size: 20em;
+
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+}
