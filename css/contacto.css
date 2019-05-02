@@ -72,6 +72,7 @@ a:active {
 }
 .cont-item {
     border: 1px solid #0d0d0d;
+    color: #6704F2;
 }
 .ci1 {
     font-family: 'Six Caps', sans-serif;
@@ -81,4 +82,55 @@ a:active {
     color: white;
 
     grid-column: 2 / span 3;
+}
+.ci2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 5em;
+    letter-spacing: 0;
+    grid-column: 3 / span 2;
+    grid-row: 3 / span 1;
+    transform: rotate(-90deg);
+    text-align: right;
+}
+.ci3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 5em;
+    letter-spacing: 0;
+    grid-column: 5 / span 2;
+    grid-row: 3 / span 1;
+    transform: rotate(-90deg);
+    text-align: right;
+}
+.ci4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 5em;
+    letter-spacing: 0;
+    grid-column: 7 / span 2;
+    grid-row: 3 / span 1;
+    transform: rotate(-90deg);
+    text-align: right;
+}
+.ci2-5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4em;
+    grid-column: 4 / span 1;
+    grid-row: 3 / span 1;
+}
+.ci3-5 {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 200px;
+    font-size: 2em;
+    grid-column: 5 / span 2;
+    grid-row: 3 / span 1;
+}
+.ci3-6 {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 200px;
+    margin-top: 200px;
+    font-size: 2em;
+    grid-column: 5 / span 2;
+    grid-row: 3 / span 1;
 }
