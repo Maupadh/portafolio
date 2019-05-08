@@ -64,73 +64,162 @@ a:active {
 .container {
     display: grid;
     grid-template-columns: 10vw 10vw 10vw 10vw 10vw 10vw 10vw 10vw 10vw 10vw ;
-    grid-template-rows: 14vh 15vh 30vh 30vh;
+    grid-template-rows: 14vh 15vh 15vh 15vh 15vh 15vh;
 
     margin: 0px;
-    background-color: white;
+    background-color: #6704F2;
     color: black;
 }
 .cont-item {
-    border: 1px solid #0d0d0d;
-    color: #6704F2;
+    color: #0C0C0C;
+}
+.cibg {
+    background-color: white;
+    grid-column: 2 / span 10;
+    grid-row: 2 / span 5;
 }
 .ci1 {
     font-family: 'Six Caps', sans-serif;
     font-size: 15em;
-    padding: 15px;
-    background-color: #6704F2;
+    padding: 10px;
+    border: 0px;
     color: white;
-
     grid-column: 2 / span 3;
 }
 .ci2 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 5em;
+    font-weight: 300;
+    font-size: 2em;
+    padding: 10px;
+    border: 0px;
     letter-spacing: 0;
-    grid-column: 3 / span 2;
-    grid-row: 3 / span 1;
-    transform: rotate(-90deg);
-    text-align: right;
+    grid-column: 5 / span 1;
+    grid-row: 2 / span 1;
+    text-align: left;
 }
 .ci3 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 5em;
+    font-weight: 300;
+    font-size: 2em;
+    padding: 10px;
+    border: 0px;
     letter-spacing: 0;
-    grid-column: 5 / span 2;
-    grid-row: 3 / span 1;
-    transform: rotate(-90deg);
-    text-align: right;
+    grid-column: 8 / span 1;
+    grid-row: 2 / span 1;
+    text-align: left;
 }
 .ci4 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 5em;
+    font-weight: 300;
+    font-size: 2em;
+    padding: 10px;
+    border: 0px;
+    border-left: 0px;
     letter-spacing: 0;
-    grid-column: 7 / span 2;
-    grid-row: 3 / span 1;
-    transform: rotate(-90deg);
-    text-align: right;
+    grid-column: 2 / span 9;
+    grid-row: 4 / span 1;
+    text-align: left;
 }
 .ci2-5 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 4em;
-    grid-column: 4 / span 1;
-    grid-row: 3 / span 1;
+    font-weight: 900;
+    font-size: 5em;
+    padding: 10px;
+    padding-top: 150px;
+    border: 1px solid black;
+    border-top: 0px;
+    grid-column: 5 / span 3;
+    grid-row: 2 / span 2;
+    text-align: center;
 }
 .ci3-5 {
     font-family: 'Montserrat', sans-serif;
-    margin-left: 200px;
+    font-weight: 900;
     font-size: 2em;
-    grid-column: 5 / span 2;
-    grid-row: 3 / span 1;
+    padding: 10px;
+    padding-top: 150px;
+    border: 1px solid black;
+    border-top: 0px;
+    border-left: 0px;
+    grid-column: 8 / span 3;
+    grid-row: 2 / span 2;
+    text-align: center;
 }
 .ci3-6 {
     font-family: 'Montserrat', sans-serif;
-    margin-left: 200px;
-    margin-top: 200px;
+    font-weight: 900;
     font-size: 2em;
-    grid-column: 5 / span 2;
-    grid-row: 3 / span 1;
+    padding: 10px;
+    padding-top: 200px;
+    font-size: 2em;
+    grid-column: 8 / span 3;
+    grid-row: 2 / span 2;
+    text-align: center;
+}
+.ci4-5 {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 250px;
+    font-size: 2em;
+    border: 1px solid black;
+    border-left: 0px;
+    grid-column: 1 / span 4;
+    grid-row: 4 / span 2;
+    margin-top: -1px;
+    transform: translateX(1px);
+    color: #0C0C0C;
+    text-align: center;
+    padding-top: 11vh;
+}
+.ci4-6 {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 250px;
+    font-size: 2em;
+    grid-column: 4 / span 4;
+    grid-row: 4 / span 2;
+    border: 1px solid black;
+    border-left: 0px;
+    border-right: 0px;
+    margin-top: -1px;
+    transform: translateX(1px);
+    color: #0C0C0C;
+    text-align: center;
+    padding-top: 11vh;
+}
+.ci4-7 {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 250px;
+    font-size: 2em;
+    grid-column: 7 / span 4;
+    grid-row: 4 / span 2;
+    border: 1px solid black;
+    border-right: 0px;
+    margin-top: -1px;
+    color: #0C0C0C;
+    text-align: center;
+    padding-top: 11vh;
+}
+.ci4-5:hover {
+    background-color: rgba(12, 12, 12, 0.1);
+}
+.ci4-6:hover {
+    background-color: rgba(12, 12, 12, 0.1);
+}
+.ci4-7:hover {
+    background-color: rgba(12, 12, 12, 0.1);
+}
+.social:link {
+    color: #0C0C0C;
+    text-decoration-line: none;
+}
+.social:visited {
+    color: #0C0C0C;
+    text-decoration-line: none;
+}
+.social:hover {
+    color: #0C0C0C;
+    text-decoration-line: none;
+}
+.social:active {
+    color: #0C0C0C;
+    text-decoration-line: none;
 }

@@ -68,7 +68,6 @@ a:active {
     color: white;
 }
 .cont-item {
-    border: 1px solid white;
 }
 .ci1 {
     font-family: 'Six Caps', sans-serif;
@@ -85,9 +84,16 @@ a:active {
     grid-row: 1 / span 3;
 }
 .ci2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    justify-content: center;
+
     padding: 50px;
     padding-top: 70%;
 
+    background-color: white;
+    color: #0c0c0c;
     grid-column: 7 / span 2;
     grid-row: 1 / span 3;
 }
