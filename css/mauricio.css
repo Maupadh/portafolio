@@ -67,8 +67,6 @@ a:active {
 
     color: white;
 }
-.cont-item {
-}
 .ci1 {
     font-family: 'Six Caps', sans-serif;
     font-size: 12em;
@@ -78,7 +76,11 @@ a:active {
     grid-row: 3 / span 1;
 }
 .img1 {
+    background-image: url(../imgs/profile_pic.jpg);
+    background-size: cover;
+    background-position: center;
     padding: 25px;
+    z-index: -10;
 
     grid-column: 4 / span 3;
     grid-row: 1 / span 3;
