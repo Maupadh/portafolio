@@ -223,3 +223,20 @@ a:active {
     color: #0C0C0C;
     text-decoration-line: none;
 }
+
+@media only screen and (max-width: 800px){
+    .navbar {
+        margin: 0px;
+    }
+    .ni2 {
+        grid-column: 3 / span 1;
+        padding-top: 35px;
+    }
+    .ni3 {
+        grid-column: 3 / span 1;
+    }
+    .ni4 {
+        grid-column: 3 / span 1;
+        padding-bottom: 35px;
+    }
+}
